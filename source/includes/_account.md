@@ -19,7 +19,7 @@ Information about your account on ColdLead.io
 
 ### HTTP Request
 
-`POST https://api.coldlead.io/v1/account`
+`GET|POST https://api.coldlead.io/v1/account`
 
 ### Parameters
 This API doesn't require any parameters.

@@ -37,8 +37,8 @@ The API is organized around REST. All requests should be made over SSL. All requ
 > To authorize, use this code:
 
 ```shell
-curl "https://api.coldlead.io/v1/api_endpoint_here"
-  -H "Accept: application/json"
+curl "https://api.coldlead.io/v1/api_endpoint_here" \
+  -H "Accept: application/json" \
   -H "Authorization: Bearer {key}"
 ```
 

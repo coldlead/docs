@@ -18,7 +18,7 @@ The Email Finder API endpoint allows you to find emails programmatically. It ret
 
 ### HTTP Request
 
-`POST https://api.coldlead.io/v1/finder`
+`GET|POST https://api.coldlead.io/v1/finder`
 
 ### Parameters
 

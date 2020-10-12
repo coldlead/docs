@@ -22,7 +22,7 @@ This API endpoint allows you to verify the deliverability of an email address.
 
 ### HTTP Request
 
-`POST https://api.coldlead.io/v1/verify`
+`GET|POST https://api.coldlead.io/v1/verify`
 
 ### Parameters
 
