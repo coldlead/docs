@@ -383,8 +383,8 @@
 <blockquote>
 <p>To authorize, use this code:</p>
 </blockquote>
-<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://api.coldlead.io/v1/api_endpoint_here"</span>
-  <span class="nt">-H</span> <span class="s2">"Accept: application/json"</span>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://api.coldlead.io/v1/api_endpoint_here"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Accept: application/json"</span> <span class="se">\</span>
   <span class="nt">-H</span> <span class="s2">"Authorization: Bearer {key}"</span>
 </code></pre></div>
 <p>Authentication is done via the API key which you can find in your <a href="https://app.coldlead.io/settings#api-keys">account settings</a>.</p>
@@ -514,7 +514,7 @@ Content-Type: application/json
 </span></code></pre></div>
 <p>Information about your account on ColdLead.io</p>
 <h3 id='http-request'>HTTP Request</h3>
-<p><code>POST https://api.coldlead.io/v1/account</code></p>
+<p><code>GET|POST https://api.coldlead.io/v1/account</code></p>
 <h3 id='parameters'>Parameters</h3>
 <p>This API doesn&#39;t require any parameters.</p>
 <h1 id='email-verifier'>Email Verifier</h1>
@@ -537,7 +537,7 @@ Content-Type: application/json
 </span></code></pre></div>
 <p>This API endpoint allows you to verify the deliverability of an email address.</p>
 <h3 id='http-request'>HTTP Request</h3>
-<p><code>POST https://api.coldlead.io/v1/verify</code></p>
+<p><code>GET|POST https://api.coldlead.io/v1/verify</code></p>
 <h3 id='parameters'>Parameters</h3>
 <table><thead>
 <tr>
@@ -622,7 +622,7 @@ Content-Type: application/json
 </span></code></pre></div>
 <p>The Email Finder API endpoint allows you to find emails programmatically. It returns an email based on a name and a domain name.</p>
 <h3 id='http-request'>HTTP Request</h3>
-<p><code>POST https://api.coldlead.io/v1/finder</code></p>
+<p><code>GET|POST https://api.coldlead.io/v1/finder</code></p>
 <h3 id='parameters'>Parameters</h3>
 <table><thead>
 <tr>
